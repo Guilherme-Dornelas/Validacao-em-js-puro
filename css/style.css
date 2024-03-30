@@ -87,3 +87,46 @@ button{
 a{
     color: rgb(0, 227, 0);
 }
+
+
+/* Estilos para tablets */
+@media screen and (max-width: 768px) {
+
+    .container {
+        display: none;
+     }
+ 
+     .container_form {
+         width: 100%;
+         height: 100vh;
+     }
+
+    .form {
+        width: 80%;
+        height: auto;
+    }
+    .form > span > input {
+        width: 90%;
+    }
+}
+
+/* Estilos para telefones */
+@media screen and (max-width: 480px) {
+    
+    .container {
+        display: none;
+     }
+ 
+     .container_form {
+         width: 100%;
+         height: 100vh;
+     }
+    
+    .form {
+        width: 100%;
+        padding: 20px;
+    }
+    .form > span > input {
+        width: 100%;
+    }
+}
