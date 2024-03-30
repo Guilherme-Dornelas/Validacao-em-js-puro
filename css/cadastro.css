@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Mukta", sans-serif;
+}
+
+main{
+    display: flex;
+    width: 100%;
+}
+
+
+.title_box{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/25530c1b-5c89-4c85-8b65-8602af58c383/dfsreel-c94b07d9-f55f-4f87-9c7f-98fe6a713c06.png/v1/fill/w_1920,h_1137,q_80,strp/iguana_dragon_wallpaper__2__by_punkerlazar_dfsreel-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI1NTMwYzFiLTVjODktNGM4NS04YjY1LTg2MDJhZjU4YzM4M1wvZGZzcmVlbC1jOTRiMDdkOS1mNTVmLTRmODctOWM3Zi05OGZlNmE3MTNjMDYucG5nIiwiaGVpZ2h0IjoiPD0xMTM3Iiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvMjU1MzBjMWItNWM4OS00Yzg1LThiNjUtODYwMmFmNThjMzgzXC9wdW5rZXJsYXphci00LnBuZyIsIm9wYWNpdHkiOjk1LCJwcm9wb3J0aW9ucyI6MC40NSwiZ3Jhdml0eSI6ImNlbnRlciJ9fQ.L6Dk3aKc5bRnkJZ3KjNBznM8BOXcfMOklViit6Vw5H4");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+
+}
+
+/* css para meus campos de formulario */
+.box_hello{
+    text-align: center;
+    display: flex;
+     flex-direction: column;
+     gap: 10px;
+     margin-bottom: 30px;
+}
+.container_form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    padding: 50px;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.form span{
+    display: flex;
+    flex-direction: column;
+}
+
+.form > span > input{
+    height: 30px;
+    width: 300px;
+    border: rgba(111, 111, 111, 0.838) 1px solid;
+    outline: none;
+    padding: 10px;
+}
+.form > span > label{
+ margin-bottom: 7px;
+ font-size: 25px;
+ color: black;
+ font-weight: 500;
+}
+
+button{
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.radio_box{
+    display: flex;
+     align-items: center;
+     justify-content: start;
+    margin-top: 20px;
+    flex-direction: row-reverse;
+    gap: 10px;
+}	
+
+a{
+    color: rgb(0, 227, 0);
+}
