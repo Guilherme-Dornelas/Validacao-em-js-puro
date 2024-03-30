@@ -88,3 +88,30 @@ button{
 a{
     color: rgb(0, 227, 0);
 }
+
+@media screen and (max-width: 768px) {
+    .title_box {
+        display: none;
+    }
+    .container_form {
+        width: 100%;
+    }
+    .form {
+        width: 80%;
+        height: auto;
+    }
+    .form > span > input {
+        width: 90%;
+    }
+}
+
+/* Estilos para telefones */
+@media screen and (max-width: 480px) {
+    .form {
+        width: 100%;
+        padding: 20px;
+    }
+    .form > span > input {
+        width: 100%;
+    }
+}
